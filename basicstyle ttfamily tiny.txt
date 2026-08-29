@@ -1,0 +1,5 @@
+basicstyle=\ttfamily\tiny,breaklines=true,
+    columns=fullflexible,
+    
+    \begin{lstlisting}[basicstyle=\ttfamily\tiny,breaklines=true,
+    columns=fullflexible]
