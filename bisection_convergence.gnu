@@ -1,3 +1,5 @@
+reset
+
 set terminal pngcairo enhanced size 1200,800
 set output 'bisection_convergence.png'
 
@@ -7,6 +9,7 @@ set ylabel 'Estimated error'
 set grid
 set logscale y
 set key top right
+set xrange [*:*]
 
 plot 'bisection_data.dat' using 1:6 with linespoints \
      linewidth 2 pointtype 7 title 'Estimated error'
